@@ -786,6 +786,7 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textureView
 id time
 id timePeriod_editText
 id timeType_spinner
