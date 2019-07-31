@@ -1,0 +1,162 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\0be89c69b642fca73261ee800cd6d8bf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\7f675e7f5b05267bad6709bbe83f5e87\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\3185167167c538c0ea36fd8c2721052f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\227c83d3946252c3d08fe77121776d67\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\ceec248dbc6d5a156b69ce3e6d87f15a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\05ce3d50c68a31b1aec25e6d6b8b1d4e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\ddcccb324e5b30e2523dacd800d83589\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\fa9a3d626401aa73671cf6b8dcef5dfb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\b92e163ad8eff517f46f666a6a07e120\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\909821e0d67cfa18b2181df89430f047\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\31e893d55b6ecd7db77ca592780e7c11\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\5460f09bed8f9b89ccb998761454edad\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\02d99ecffbefcd07360fc24da49ea53d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\66d1c2cc3ecd5c1046991d2960539988\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\2709def8c774ad2ade5efcd7a0456db7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\4be419a8fdb78c2747dd70db5011cc3a\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\6406bfc226cf3c3332d57b97ffccb413\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\515fc17ed30dde078c167b2ca34f8aa3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\230a9eb61921416208b1b2bd90b4c881\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\68a02b484053bbc7038d02ba1995271c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\d0ddc8572f9abfc1f8da3ede55c07168\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\63b3f5ef9f7e620743e755a7bd95324a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\900980da6ca2740d358ac73b75f53a7a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\853ef04be08047e1663614e1f27422c7\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\f7a9b2a27084045111287893fcdcced6\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\08e5b2850980fd802bc5377d785fe18c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\148b208ddcc8f4f6b7c0f25decad3dbb\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:5:5-21:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\7f675e7f5b05267bad6709bbe83f5e87\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\7f675e7f5b05267bad6709bbe83f5e87\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\4be419a8fdb78c2747dd70db5011cc3a\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\4be419a8fdb78c2747dd70db5011cc3a\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\6406bfc226cf3c3332d57b97ffccb413\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\6406bfc226cf3c3332d57b97ffccb413\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\4be419a8fdb78c2747dd70db5011cc3a\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.sebastiansoch.takephoto.CameraPreview
+ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:12:9-60
+	android:name
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:12:19-48
+activity#com.sebastiansoch.takephoto.PhotoScheduler
+ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:13:9-52
+	android:name
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:13:19-49
+activity#com.sebastiansoch.takephoto.MainActivity
+ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:14:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\0be89c69b642fca73261ee800cd6d8bf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\0be89c69b642fca73261ee800cd6d8bf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\7f675e7f5b05267bad6709bbe83f5e87\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\7f675e7f5b05267bad6709bbe83f5e87\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\3185167167c538c0ea36fd8c2721052f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\3185167167c538c0ea36fd8c2721052f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\227c83d3946252c3d08fe77121776d67\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\227c83d3946252c3d08fe77121776d67\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\ceec248dbc6d5a156b69ce3e6d87f15a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\ceec248dbc6d5a156b69ce3e6d87f15a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\05ce3d50c68a31b1aec25e6d6b8b1d4e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\05ce3d50c68a31b1aec25e6d6b8b1d4e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\ddcccb324e5b30e2523dacd800d83589\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\ddcccb324e5b30e2523dacd800d83589\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\fa9a3d626401aa73671cf6b8dcef5dfb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\fa9a3d626401aa73671cf6b8dcef5dfb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\b92e163ad8eff517f46f666a6a07e120\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\b92e163ad8eff517f46f666a6a07e120\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\909821e0d67cfa18b2181df89430f047\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\909821e0d67cfa18b2181df89430f047\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\31e893d55b6ecd7db77ca592780e7c11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\31e893d55b6ecd7db77ca592780e7c11\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\5460f09bed8f9b89ccb998761454edad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\5460f09bed8f9b89ccb998761454edad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\02d99ecffbefcd07360fc24da49ea53d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\02d99ecffbefcd07360fc24da49ea53d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\66d1c2cc3ecd5c1046991d2960539988\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\66d1c2cc3ecd5c1046991d2960539988\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\2709def8c774ad2ade5efcd7a0456db7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\2709def8c774ad2ade5efcd7a0456db7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\4be419a8fdb78c2747dd70db5011cc3a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\4be419a8fdb78c2747dd70db5011cc3a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\6406bfc226cf3c3332d57b97ffccb413\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\6406bfc226cf3c3332d57b97ffccb413\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\515fc17ed30dde078c167b2ca34f8aa3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\515fc17ed30dde078c167b2ca34f8aa3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\230a9eb61921416208b1b2bd90b4c881\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\230a9eb61921416208b1b2bd90b4c881\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\68a02b484053bbc7038d02ba1995271c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\68a02b484053bbc7038d02ba1995271c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\d0ddc8572f9abfc1f8da3ede55c07168\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\d0ddc8572f9abfc1f8da3ede55c07168\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\63b3f5ef9f7e620743e755a7bd95324a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\63b3f5ef9f7e620743e755a7bd95324a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\900980da6ca2740d358ac73b75f53a7a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\900980da6ca2740d358ac73b75f53a7a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\853ef04be08047e1663614e1f27422c7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\853ef04be08047e1663614e1f27422c7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\f7a9b2a27084045111287893fcdcced6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\f7a9b2a27084045111287893fcdcced6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\08e5b2850980fd802bc5377d785fe18c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\08e5b2850980fd802bc5377d785fe18c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\148b208ddcc8f4f6b7c0f25decad3dbb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\148b208ddcc8f4f6b7c0f25decad3dbb\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml

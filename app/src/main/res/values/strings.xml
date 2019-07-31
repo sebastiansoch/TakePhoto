@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TakePhoto</string>
+    <string name="open_photo_scheduler">Otwórz planer</string>
+    <string name="open_camera_preview">Otwórz podgląd z kamery</string>
+    <string name="save_schedule">Zapisz plan</string>
+    <string name="close_camera_preview">Zamknij podgląd</string>
+    <string name="choose_period">Wybierz interwał czasowy</string>
+</resources>
