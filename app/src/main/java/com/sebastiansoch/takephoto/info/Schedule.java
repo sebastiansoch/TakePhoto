@@ -1,4 +1,6 @@
-package com.sebastiansoch.takephoto;
+package com.sebastiansoch.takephoto.info;
+
+import com.sebastiansoch.takephoto.TimeType;
 
 import java.io.Serializable;
 

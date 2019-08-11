@@ -1,6 +1,7 @@
 package com.sebastiansoch.takephoto;
 
 import android.Manifest;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.SurfaceTexture;
 import android.hardware.camera2.CameraAccessException;
@@ -24,6 +25,8 @@ import android.view.Surface;
 import android.view.TextureView;
 import android.view.View;
 import android.widget.Toast;
+
+import com.sebastiansoch.takephoto.info.CameraSettings;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -164,6 +167,10 @@ public class CameraPreview extends AppCompatActivity {
     }
 
     public void closeCameraPreview(View view) {
+        CameraSettings cameraSettings = new CameraSettings();
+        Intent intent = new Intent();
+        intent.putExtra("CameraSettings", cameraSettings);
+        setResult(RESULT_OK, intent);
         finish();
     }
 

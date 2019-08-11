@@ -8,6 +8,8 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
 
+import com.sebastiansoch.takephoto.info.Schedule;
+
 public class PhotoScheduler extends AppCompatActivity {
 
     @Override

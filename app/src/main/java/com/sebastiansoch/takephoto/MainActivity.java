@@ -7,10 +7,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
+import com.sebastiansoch.takephoto.info.CameraSettings;
+import com.sebastiansoch.takephoto.info.Schedule;
+
 public class MainActivity extends AppCompatActivity {
 
     private static final int PHOTO_SCHEDULER_REQ_CODE = 1;
+    private static final int CAMERA_PREVIEW_REQ_CODE = 2;
+
     private Schedule schedule;
+    private CameraSettings cameraSettings;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openCameraPreview(View view) {
-        startActivity(new Intent(this, CameraPreview.class));
+        startActivityForResult(new Intent(this, CameraPreview.class), CAMERA_PREVIEW_REQ_CODE);
     }
 
     @Override
@@ -34,8 +40,15 @@ public class MainActivity extends AppCompatActivity {
                 if (resultCode == RESULT_OK) {
                     schedule = (Schedule) data.getSerializableExtra("PhotoSchedule");
                 }
+            case CAMERA_PREVIEW_REQ_CODE:
+                if (resultCode == RESULT_OK) {
+                    cameraSettings = (CameraSettings) data.getSerializableExtra("CameraSettings");
+                }
         }
 
-        Toast.makeText(this, "Schedule: " + schedule.getPeriod(), Toast.LENGTH_SHORT).show();
+        if (schedule != null) {
+            Toast.makeText(this, "Schedule: " + schedule.getPeriod(), Toast.LENGTH_SHORT).show();
+        }
+
     }
 }
