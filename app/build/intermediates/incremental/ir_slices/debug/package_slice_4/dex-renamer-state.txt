@@ -1,4 +1,4 @@
-#Wed Jul 31 21:42:51 CEST 2019
+#Sun Aug 11 18:46:34 CEST 2019
 base.0=C\:\\Users\\Aga Seba\\AndroidStudioProjects\\TakePhoto\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\4
 path.0=classes.dex
 renamed.0=classes.dex

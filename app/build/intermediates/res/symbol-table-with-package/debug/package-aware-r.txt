@@ -703,6 +703,7 @@ id direct
 id disableHome
 id edit_query
 id end
+id executeScheduler_btn
 id expand_activities_button
 id expanded_menu
 id fill
@@ -891,6 +892,7 @@ string abc_toolbar_collapse_description
 string app_name
 string choose_period
 string close_camera_preview
+string execute_scheduler
 string open_camera_preview
 string open_photo_scheduler
 string save_schedule

@@ -5,4 +5,5 @@
     <string name="save_schedule">Zapisz plan</string>
     <string name="close_camera_preview">Zamknij podgląd</string>
     <string name="choose_period">Wybierz interwał czasowy</string>
+    <string name="execute_scheduler">Uruchom zaplanowaną sesję</string>
 </resources>
