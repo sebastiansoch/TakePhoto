@@ -22,6 +22,7 @@
         android:layout_height="64dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="12dp"
+        android:inputType="number"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/choosePeriod_textView" />

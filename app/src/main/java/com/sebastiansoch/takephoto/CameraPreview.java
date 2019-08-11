@@ -4,15 +4,18 @@ import android.Manifest;
 import android.content.pm.PackageManager;
 import android.graphics.SurfaceTexture;
 import android.hardware.camera2.CameraAccessException;
+import android.hardware.camera2.CameraCaptureSession;
 import android.hardware.camera2.CameraCharacteristics;
 import android.hardware.camera2.CameraDevice;
 import android.hardware.camera2.CameraManager;
+import android.hardware.camera2.CaptureRequest;
 import android.hardware.camera2.params.StreamConfigurationMap;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.util.Size;
@@ -23,6 +26,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
@@ -62,6 +66,7 @@ public class CameraPreview extends AppCompatActivity {
         @Override
         public void onOpened(CameraDevice camera) {
             cameraDevice = camera;
+            startPreview();
         }
 
         @Override
@@ -81,6 +86,7 @@ public class CameraPreview extends AppCompatActivity {
     private Handler backgroundHandler;
     private String cameraId;
     private Size previewSize;
+    private CaptureRequest.Builder captureRequestBuilder;
 
     private static final SparseIntArray ORIENTATIONS = new SparseIntArray();
 
@@ -135,7 +141,7 @@ public class CameraPreview extends AppCompatActivity {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
 
         if (requestCode == CAMERA_PERMISSION_REQUEST) {
-            if (grantResults[0] == PackageManager.PERMISSION_DENIED) {
+            if (grantResults[0] != PackageManager.PERMISSION_GRANTED) {
                 Toast.makeText(getApplicationContext(), "Application will not run without camera services", Toast.LENGTH_SHORT).show();
             }
         }
@@ -195,13 +201,49 @@ public class CameraPreview extends AppCompatActivity {
     private void connectCamera() {
         CameraManager cameraManager = (CameraManager) getSystemService(CAMERA_SERVICE);
         try {
-            if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
-                if (shouldShowRequestPermissionRationale(Manifest.permission.CAMERA)) {
-                    Toast.makeText(this, "Video app required access to camera", Toast.LENGTH_SHORT).show();
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED) {
+                    cameraManager.openCamera(cameraId, cameraDeviceStateCallback, backgroundHandler);
+                } else {
+                    if (shouldShowRequestPermissionRationale(Manifest.permission.CAMERA)) {
+                        Toast.makeText(this, "Video app required access to camera", Toast.LENGTH_SHORT).show();
+                    }
+                    requestPermissions(new String[]{Manifest.permission.CAMERA}, CAMERA_PERMISSION_REQUEST);
                 }
-                requestPermissions(new String[]{Manifest.permission.CAMERA}, CAMERA_PERMISSION_REQUEST);
+            } else {
+                cameraManager.openCamera(cameraId, cameraDeviceStateCallback, backgroundHandler);
             }
-            cameraManager.openCamera(cameraId, cameraDeviceStateCallback, backgroundHandler);
+
+        } catch (CameraAccessException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void startPreview() {
+        SurfaceTexture surfaceTexture = textureView.getSurfaceTexture();
+        surfaceTexture.setDefaultBufferSize(previewSize.getWidth(), previewSize.getHeight());
+        Surface previewSurface = new Surface(surfaceTexture);
+
+        try {
+            captureRequestBuilder = cameraDevice.createCaptureRequest(CameraDevice.TEMPLATE_PREVIEW);
+            captureRequestBuilder.addTarget(previewSurface);
+
+            cameraDevice.createCaptureSession(Arrays.asList(previewSurface), new CameraCaptureSession.StateCallback() {
+                @Override
+                public void onConfigured(CameraCaptureSession session) {
+                    try {
+                        session.setRepeatingRequest(captureRequestBuilder.build(), null, backgroundHandler);
+                    } catch (CameraAccessException e) {
+                        e.printStackTrace();
+                    }
+                }
+
+                @Override
+                public void onConfigureFailed(CameraCaptureSession session) {
+                    Toast.makeText(getApplicationContext(), "Unable to setup camera preview", Toast.LENGTH_SHORT).show();
+                }
+            }, null);
+
         } catch (CameraAccessException e) {
             e.printStackTrace();
         }
