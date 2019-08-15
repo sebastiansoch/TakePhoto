@@ -21,6 +21,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.sebastiansoch.takephoto.SavePhoto" />
         <activity android:name="com.sebastiansoch.takephoto.CameraPreview" />
         <activity android:name="com.sebastiansoch.takephoto.PhotoScheduler" />
         <activity android:name="com.sebastiansoch.takephoto.MainActivity" >

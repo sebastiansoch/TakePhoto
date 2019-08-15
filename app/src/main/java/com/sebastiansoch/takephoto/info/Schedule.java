@@ -1,7 +1,5 @@
 package com.sebastiansoch.takephoto.info;
 
-import com.sebastiansoch.takephoto.TimeType;
-
 import java.io.Serializable;
 
 public class Schedule implements Serializable {

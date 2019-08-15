@@ -89,6 +89,7 @@ public class CameraPreview extends AppCompatActivity {
     private Handler backgroundHandler;
     private String cameraId;
     private Size previewSize;
+    private int totalRotation;
     private CaptureRequest.Builder captureRequestBuilder;
 
     private static final SparseIntArray ORIENTATIONS = new SparseIntArray();
@@ -168,6 +169,9 @@ public class CameraPreview extends AppCompatActivity {
 
     public void closeCameraPreview(View view) {
         CameraSettings cameraSettings = new CameraSettings();
+        cameraSettings.setCameraId(cameraId);
+        cameraSettings.setCameraOrientation(totalRotation);
+
         Intent intent = new Intent();
         intent.putExtra("CameraSettings", cameraSettings);
         setResult(RESULT_OK, intent);
@@ -185,7 +189,7 @@ public class CameraPreview extends AppCompatActivity {
                 }
 
                 int deviceOrientation = getWindowManager().getDefaultDisplay().getRotation();
-                int totalRotation = sensorToDeviceRotation(cameraCharacteristics, deviceOrientation);
+                totalRotation = sensorToDeviceRotation(cameraCharacteristics, deviceOrientation);
                 boolean swapRotation = totalRotation == 90 || totalRotation == 270;
                 int rotatedWidth = viewWidth;
                 int rotatedHeight = viewHeight;

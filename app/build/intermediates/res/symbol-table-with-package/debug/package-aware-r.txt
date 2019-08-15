@@ -838,6 +838,7 @@ layout abc_tooltip
 layout activity_camera_preview
 layout activity_main
 layout activity_photo_scheduler
+layout activity_save_photo
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big

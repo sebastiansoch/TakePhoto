@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-27:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\0be89c69b642fca73261ee800cd6d8bf\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\7f675e7f5b05267bad6709bbe83f5e87\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\3185167167c538c0ea36fd8c2721052f\AndroidManifest.xml:17:1-22:12
@@ -31,20 +31,20 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Aga Seba\.gradle\ca
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\f7a9b2a27084045111287893fcdcced6\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\08e5b2850980fd802bc5377d785fe18c\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\148b208ddcc8f4f6b7c0f25decad3dbb\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-26:12
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:2:11-69
@@ -57,7 +57,7 @@ ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\Androi
 	android:name
 		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:6:22-78
 application
-ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:8:5-24:19
+ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:8:5-25:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\7f675e7f5b05267bad6709bbe83f5e87\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\7f675e7f5b05267bad6709bbe83f5e87\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Aga Seba\.gradle\caches\transforms-2\files-2.1\4be419a8fdb78c2747dd70db5011cc3a\AndroidManifest.xml:22:5-94
@@ -78,28 +78,32 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Aga Seba\.
 		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
 		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.sebastiansoch.takephoto.SavePhoto
+ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:15:9-56
+	android:name
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:15:19-44
 activity#com.sebastiansoch.takephoto.CameraPreview
-ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:15:9-60
+ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:16:9-51
 	android:name
-		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:15:19-48
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:16:19-48
 activity#com.sebastiansoch.takephoto.PhotoScheduler
-ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:16:9-52
+ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:17:9-52
 	android:name
-		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:16:19-49
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:17:19-49
 activity#com.sebastiansoch.takephoto.MainActivity
-ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:17:9-23:20
+ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:18:9-24:20
 	android:name
-		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:17:19-47
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:18:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml:22:27-74
 uses-sdk
 INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Aga Seba\AndroidStudioProjects\TakePhoto\app\src\main\AndroidManifest.xml

@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 
 import com.sebastiansoch.takephoto.info.Schedule;
+import com.sebastiansoch.takephoto.info.TimeType;
 
 public class PhotoScheduler extends AppCompatActivity {
 
