@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Aga Seba\\AndroidStudioProjects\\TakePhoto\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "outputFile": "C:\\Users\\ssoch\\AndroidStudioProjects\\TakePhoto\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Aga Seba\\.gradle\\caches\\transforms-2\\files-2.1\\0be89c69b642fca73261ee800cd6d8bf\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "C:\\Users\\ssoch\\.gradle\\caches\\transforms-2\\files-2.1\\f6f18287254d6794e4bdf8f8803d2881\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -10,6 +10,7 @@ import android.hardware.camera2.CameraDevice;
 import android.hardware.camera2.CameraManager;
 import android.hardware.camera2.CameraMetadata;
 import android.hardware.camera2.CaptureRequest;
+import android.hardware.camera2.CaptureResult;
 import android.hardware.camera2.TotalCaptureResult;
 import android.media.Image;
 import android.media.ImageReader;
@@ -96,7 +97,7 @@ public class SavePhoto extends AppCompatActivity {
 
     @Override
     protected void onPause() {
-        stopackgroundThread();
+        stopBackgroundThread();
         super.onPause();
     }
 
@@ -137,6 +138,7 @@ public class SavePhoto extends AppCompatActivity {
         if (cameraDevice == null) {
             return;
         }
+
         try {
             final ImageReader imageReader = ImageReader.newInstance(photoResolution.getWidth(), photoResolution.getHeight(), ImageFormat.JPEG, 1);
             List<Surface> outputSurface = new ArrayList<>(1);
@@ -156,8 +158,8 @@ public class SavePhoto extends AppCompatActivity {
             captureRequestBuilder.set(CaptureRequest.CONTROL_MODE, CameraMetadata.CONTROL_MODE_AUTO);
             captureRequestBuilder.set(CaptureRequest.JPEG_ORIENTATION, cameraSettings.getCameraOrientation());
 
+            file = createPhotoFileName();
 
-            file = new File(Environment.getExternalStorageDirectory() + "/" + "aaaaaaa" + ".jpg");
             ImageReader.OnImageAvailableListener readerListener = new ImageReader.OnImageAvailableListener() {
                 @Override
                 public void onImageAvailable(ImageReader reader) {
@@ -189,13 +191,11 @@ public class SavePhoto extends AppCompatActivity {
             };
 
             imageReader.setOnImageAvailableListener(readerListener, backgroundHandler);
-            Toast.makeText(this, "SS:: " + file.getAbsolutePath(), Toast.LENGTH_SHORT).show();
 
             final CameraCaptureSession.CaptureCallback captureListener = new CameraCaptureSession.CaptureCallback() {
                 @Override
                 public void onCaptureCompleted(@NonNull CameraCaptureSession session, @NonNull CaptureRequest request, @NonNull TotalCaptureResult result) {
                     super.onCaptureCompleted(session, request, result);
-                    Toast.makeText(SavePhoto.this, "Saved " + file, Toast.LENGTH_LONG).show();
                 }
             };
 
@@ -220,15 +220,16 @@ public class SavePhoto extends AppCompatActivity {
         }
     }
 
-
     private File createPhotoFileName() {
         String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-        String prefix = "TakePhoto_" + timestamp;
-
-        File file = null;
-//            file = File.createTempFile(prefix, ".jpg", Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES));
-            file = new File(Environment.getExternalStorageDirectory() + "/" + prefix + ".jpg");
-        return file;
+        String filename = timestamp + ".jpg";
+        String pathname = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES).getAbsolutePath();
+        pathname = pathname.concat("/TakePhoto");
+        File path = new File(pathname);
+        if (!path.exists()) {
+            path.mkdirs();
+        }
+        return new File(pathname + File.separator + filename);
     }
 
     private void findCameraResolution() {
@@ -254,7 +255,7 @@ public class SavePhoto extends AppCompatActivity {
         backgroundHandler = new Handler(backgroundHandlerThread.getLooper());
     }
 
-    private void stopackgroundThread() {
+    private void stopBackgroundThread() {
         backgroundHandlerThread.quitSafely();
         try {
             backgroundHandlerThread.join();
@@ -264,5 +265,4 @@ public class SavePhoto extends AppCompatActivity {
             e.printStackTrace();
         }
     }
-
 }

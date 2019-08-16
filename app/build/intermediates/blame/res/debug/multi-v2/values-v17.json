@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Aga Seba\\AndroidStudioProjects\\TakePhoto\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+            "outputFile": "C:\\Users\\ssoch\\AndroidStudioProjects\\TakePhoto\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Aga Seba\\.gradle\\caches\\transforms-2\\files-2.1\\0be89c69b642fca73261ee800cd6d8bf\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\ssoch\\.gradle\\caches\\transforms-2\\files-2.1\\f6f18287254d6794e4bdf8f8803d2881\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,25,29,33,37,40,43,46,50,53,57",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

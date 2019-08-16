@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Aga Seba\\AndroidStudioProjects\\TakePhoto\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nl\\values-nl.xml",
+            "outputFile": "C:\\Users\\ssoch\\AndroidStudioProjects\\TakePhoto\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nl\\values-nl.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Aga Seba\\.gradle\\caches\\transforms-2\\files-2.1\\0be89c69b642fca73261ee800cd6d8bf\\res\\values-nl\\values-nl.xml",
+                    "source": "C:\\Users\\ssoch\\.gradle\\caches\\transforms-2\\files-2.1\\f6f18287254d6794e4bdf8f8803d2881\\res\\values-nl\\values-nl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Aga Seba\\.gradle\\caches\\transforms-2\\files-2.1\\4be419a8fdb78c2747dd70db5011cc3a\\res\\values-nl\\values-nl.xml",
+                    "source": "C:\\Users\\ssoch\\.gradle\\caches\\transforms-2\\files-2.1\\55d8dcff6ddcfc2273b4a48d9d41ff46\\res\\values-nl\\values-nl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
